@@ -10,7 +10,7 @@ public class collegeService {
 		System.out.println(cdto.toString());
 		}
 	public void create2ndMAster(CollegeDto ccdto) {
-		ccdto.setMajor("MAth");
+		ccdto.setMajor("Math");
 		ccdto.setName("NarendreNAth");
 		ccdto.setQualification("Master in Science");
 		System.out.println(ccdto.toString());
